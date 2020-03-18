@@ -212,68 +212,6 @@ p.gr::selection { color: #33FF00; background:#FFB000;}
   background: #0A4DA4;
 }
 
-.display_big{display:block;}
-.display_small{display:none;}
-
-
-@media screen and (max-width: 1275px) {
-
-	
-.collapsible label{width:30%;}
-.title {width:70%;}
-	
-.collapsible input:not(:checked) ~ .nav {
-	width:0px;
-	height:0px;
-	padding:0px;
-	z-index:2;
-	}
-.collapsible input:checked ~ .nav {
-	width:30%;
-	z-index:2;
-	}
-
-.collapsible input:not(:checked) ~ .cont {
-	width:100%;
-	z-index:0;
-	}
-.collapsible input:checked ~ .cont {
-	width:100%;
-	z-index:0;
-	}
-}
-
-
-
-
-@media screen and (max-width: 850px) {
-	
-.display_big{display:none;}
-.display_small{display:block;}	
-
-.collapsible label{width:55%;}
-.title {width:45%;}
-	
-.collapsible input:not(:checked) ~ .nav {
-	width:0px;
-	height:0px;
-	padding:0px;
-	z-index:2;
-	}
-.collapsible input:checked ~ .nav {
-	width:55%;
-	z-index:2;
-	}
-
-.collapsible input:not(:checked) ~ .cont {
-	width:100%;
-	z-index:0;
-	}
-.collapsible input:checked ~ .cont {
-	width:100%;
-	z-index:0;
-	}
-}
 .details {width:100%; 
 	height:auto;
 	display:block;
@@ -336,3 +274,79 @@ footer {width:100%;
 .footer_wrapper2 a {color:white; text-decoration:none;}
 
 .copyright {font-size: 50%; padding:15px;}
+
+
+.display_big{display:inline-block;}
+.display_small{display:none;}
+
+
+
+@media screen and (max-width: 1275px) {
+
+	
+.collapsible label{width:30%;}
+.title {width:70%;}
+	
+.collapsible input:not(:checked) ~ .nav {
+	width:0px;
+	height:0px;
+	padding:0px;
+	z-index:2;
+	}
+.collapsible input:checked ~ .nav {
+	width:30%;
+	z-index:2;
+	}
+
+.collapsible input:not(:checked) ~ .cont {
+	width:100%;
+	z-index:0;
+	}
+.collapsible input:checked ~ .cont {
+	width:100%;
+	z-index:0;
+	}
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+	
+.display_big{display:none;}
+.display_small{display:block;}	
+.footer_wrapper2 {width:100%; font-size:35px;}
+.collapsible label{width:20%;}
+.title {width:80%;}
+.css-button-rounded{width:100%;}
+
+label {text-align:center;}
+
+h1{font-size:175%;}
+
+.title{font-size:85px;}
+
+.collapsible input:not(:checked) ~ .nav {
+	width:0px;
+	height:0px;
+	padding:0px;
+	z-index:2;
+	}
+.collapsible input:checked ~ .nav {
+	width:55%;
+	z-index:2;
+	}
+
+.collapsible input:not(:checked) ~ .cont {
+	width:100%;
+	z-index:0;
+	}
+.collapsible input:checked ~ .cont {
+	width:100%;
+	z-index:0;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.footer_wrapper2 {width:100%; font-size:15px;}
+	{
