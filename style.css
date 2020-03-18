@@ -218,8 +218,6 @@ p.gr::selection { color: #33FF00; background:#FFB000;}
 
 @media screen and (max-width: 1275px) {
 
-.display_big{display:none;}
-.display_small{display:block;}	
 	
 .collapsible label{width:30%;}
 .title {width:70%;}
@@ -251,7 +249,7 @@ p.gr::selection { color: #33FF00; background:#FFB000;}
 @media screen and (max-width: 850px) {
 	
 .display_big{display:none;}
-.display_small{display:block;}
+.display_small{display:block;}	
 
 .collapsible label{width:55%;}
 .title {width:45%;}
