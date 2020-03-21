@@ -5,7 +5,7 @@ html{
     position:relative;
 }
 
-body { height: 100%; margin: 0px; padding: 0px; background:#100e17;}
+body { height: 100%; margin: 0px; padding: 0px; background:#100e17; color:white;}
 
 hr{
     border: 0;
