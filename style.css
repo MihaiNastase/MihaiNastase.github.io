@@ -348,8 +348,11 @@ h1{font-size:175%;}
 	width:100%;
 	z-index:0;
 	}
+
+.profile {margin-bottom:30px;}
 }
 
 @media screen and (max-width: 650px) {
 	.footer_wrapper2 {width:100%; font-size:15px;}
-	{
+}
+	
