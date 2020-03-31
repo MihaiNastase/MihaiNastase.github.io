@@ -277,7 +277,7 @@ footer {width:100%;
 
 
 .display_big{display:inline-block;}
-.display_small{display:none;}
+.display_small{display:none; width:100%;}
 
 
 
