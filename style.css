@@ -16,6 +16,13 @@ hr{
 h1 {color:#035220; font-family: 'Anonymous Pro', monospace; text-align:center; font-size: 350%; text-shadow: 2px 2px green;}
 h2 {color:#035220; font-family: 'Anonymous Pro', monospace; font-size: 150%; text-shadow: 1px 1px green;}
 
+.fl img {
+  float: left; margin-right:15px;
+}
+.fr img {
+  float: right; margin-left:15px;
+}
+
 .title {	
 	font-family: 'Inconsolata', monospace;
 	letter-spacing: 15px;
@@ -105,7 +112,7 @@ h2 {color:#035220; font-family: 'Anonymous Pro', monospace; font-size: 150%; tex
 	
 .cont{
 	border-top: 3px solid #0B1F65;
-	box-shadow: 1px -2px #09489E;
+	box-shadow: /*inset 0 0 0 1000px rgba(21,34,56,.9),*/ 1px -2px #09489E;
 	display:block; 
 	overflow-y: scroll;
 	color: #FFB000;
@@ -113,7 +120,7 @@ h2 {color:#035220; font-family: 'Anonymous Pro', monospace; font-size: 150%; tex
     height: calc(100% - 75px);
 	float:right; 
 	padding:15px;
-	background:#152238;
+	background: url('Img/crossline-lines.png') /*#152238*/;
 	transition: width 1s;
 	transition: 1s;
 	position:absolute;
